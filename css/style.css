@@ -1,0 +1,92 @@
+@import url("./global.css");
+@import url("./fontsdod.css");
+
+/* global styles */
+
+/* header start */
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.logo {
+}
+.menu-list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.menu-link {
+  color: black;
+  font-size: 15px;
+  line-height: 22.5px;
+  &:hover {
+    opacity: 60%;
+  }
+  &:hover {
+    opacity: 60%;
+  }
+}
+
+/* header end */
+
+/* main start */
+
+.hero-container {
+  text-align: center;
+  margin-top: 55px;
+  margin-bottom: 55px;
+}
+.small-subtitle {
+  color: #a6a6a6;
+  line-height: 19.2px;
+  margin-bottom: 5px;
+}
+.hero-title {
+  max-width: 554px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  font-size: 64px;
+  color: black;
+  line-height: 76.8px;
+  margin-bottom: 23px;
+}
+.hero-description {
+  max-width: 717px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #212529;
+  margin-bottom: 36px;
+}
+
+.btn-hero {
+  margin-left: 4px;
+  background-color: #fff;
+  color: black;
+  border: 1px solid #000;
+}
+/* main end */
+/* offer */
+.offer-top {
+  max-width: 1028px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.offer-items {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.offer-item {
+  color: #a6a6a6;
+}
